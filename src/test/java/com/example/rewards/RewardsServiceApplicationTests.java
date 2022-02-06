@@ -10,4 +10,8 @@ class RewardsServiceApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	public void main() {
+		RewardsServiceApplication.main(new String[] {});
+	}
 }
